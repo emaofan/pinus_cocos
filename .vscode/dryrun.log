@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/even/workspace/jack_fun_ts'
+make: Leaving directory `/Users/even/workspace/jack_fun_ts'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

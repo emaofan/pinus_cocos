@@ -1,0 +1,31 @@
+{
+    "name": "pinus_cc",
+    "version": "1.0.0",
+    "private": false,
+    "bin": {
+        "$": "./dist/bin/app.js"
+    },
+    "main": "./dist/app",
+    "scripts": {
+        "start": "npm run build && cd dist &&  node app",
+        "build": "node_modules/.bin/tsc"
+    },
+    "dependencies": {
+        "@types/bluebird": "^3.5.19",
+        "@types/node": "8.10.54",
+        "bluebird": "^3.5.1",
+        "class-transformer": "^0.5.1",
+        "crypto": "^1.0.1",
+        "moment": "^2.29.3",
+        "mysql": "^2.18.1",
+        "pinus": "1.4.10",
+        "redis": "^3.0.2",
+        "redlock": "^4.2.0",
+        "reflect-metadata": "^0.1.13",
+        "source-map-support": "^0.5.0"
+    },
+    "devDependencies": {
+        "tslint": "5.20.1",
+        "typescript": "3.7.3"
+    }
+}

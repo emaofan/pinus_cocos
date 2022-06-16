@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/even/workspace/jack_fun_ts/server_pinus'
+npm install -d
+echo '============   server_pinus npm installed ============'
+make: Leaving directory `/Users/even/workspace/jack_fun_ts/server_pinus'
+ 
